@@ -1,0 +1,152 @@
+    1  ./autorun.sh
+    2  sudo usermod -G vboxsf -a reza
+    3  groups
+    4  [200~sudo apt install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6~
+    5  sudo apt install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
+    6  wget https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh -O ~/Downloads/Anaconda3-2020.11-Linux-x86_64.sh
+    7  cd ~/Downloads
+    8  sudo chmod +x Anaconda3-2020.11-Linux-x86_64.sh
+    9  ./Anaconda3-2020.11-Linux-x86_64.sh
+   10  jupyter notebook --generate -config
+   11  jupyter notebook --generate-config
+   12  ~/.jupyter/jupyter_notebook_config.py
+   13  anaconda-navigator
+   14  sudo apt update
+   15  anaconda-navigator
+   16  sudo apt update && sudo apt upgrade -y
+   17  sudo apt install jupyter-notebook
+   18  jypyter-notebook
+   19  jupyter-notebook
+   20  echo 'export JUPYTER_DATA_DIR=/home/$USER/Public' >> .bashrc
+   21  echo 'export JUPYTER_RUNTIME_DIR=/home/$USER/Public' >> .bashrc
+   22  source .bashrc
+   23  jupyter-notebook
+   24  anaconda-navigator 
+   25  jupyter notebook
+   26  sudo apt update -qq
+   27  sudo apt install --no-install-recommends software-properties-common dirmngr
+   28  wget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | sudo tee -a /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc
+   29  sudo add-apt-repository "deb https://cloud.r-project.org/bin/linux/ubuntu $(jammy -cs)-cran40/"
+   30  sudo apt install --no-install-recommends r-base
+   31  cd
+   32  ls
+   33  cd Downloads/
+   34  ls
+   35  sudo dpkg -i rstudio-2022.07.2-576-amd64.deb 
+   36  R
+   37  conda env list
+   38  anaconda navigator
+   39  anaconda-navigator
+   40  conda info
+   41  conda info --envs
+   42  conda config --add channels defaults
+   43  conda config --add channels bioconda
+   44  conda config --add channels conda-forge
+   45  conda config --set offline false
+   46  conda info
+   47  conda create --name rnaseq 
+   48  conda info --envs
+   49  conda activate rnaseq 
+   50  conda install -c bioconda kallisto
+   51  kallisto
+   52  conda install -c bioconda fastqc
+   53  conda install -c bioconda multiqc
+   54  fastqc
+   55  maultiqc
+   56  maltiqc
+   57  multiqc
+   58  conda deactivate
+   59  conda create -y --name kb python=3.8
+   60  conda activate kb
+   61  pip install kb-python
+   62  kb
+   63  conda deactivate
+   64  conda create --name sourmash
+   65  conda activate sourmash
+   66  conda install -c bioconda sourmash
+   67  sourmash
+   68  conda deactivate
+   69  conda create --name centrifuge
+   70  conda activate centrifuge
+   71  conda install -c bioconda centrifuge
+   72  centrifuge
+   73  conda deactivate
+   74  clear
+   75  cd ..
+   76  ls
+   77  cd Desktop/
+   78  ls
+   79  CD Share
+   80  cd Share
+   81  ls
+   82  cd RNAseq/
+   83  ls
+   84  lscpu
+   85  cd data
+   86  ls
+   87  fastqc *.gz -t8
+   88  conda info --envs
+   89  conda activate rnaseq
+   90  fastqc *.gz -t8
+   91  fastqc SRR8668759 -t8
+   92  ls
+   93  fastqc SRR8668759.gz -t8
+   94  fastqc SRR8668759.fastq.gz -t8
+   95  fastp -i *.gz -t 8
+   96  conda install -c bioconda fastp
+   97  fastp -i *.gz -t 8
+   98  fastp -i SRR8668755_1M_subsample.fatsq.gz -t 8
+   99  fastp -i SRR8668755_1M_subsample.fastq.gz -t 8
+  100  fastp -i *.gz -t 8
+  101  fastp -i SRR8668755.fastq.gz -t 8
+  102  kallisto index -i Homo_sapiens.GRCh38.cdna.all.index Homo_sapiens.GRCh38.cdna.all.fa
+  103  kallisto quant -i Homo_sapiens.GRCh38.cdna.all.index -o test -t 8 --single -l 250 -s 30 *.gz &> test.log
+  104  1+2
+  105  ls
+  106  ls *gz
+  107  ls *fastq.gz
+  108  ls *fastq.gz > gg.txt
+  109  cat gg.txt
+  110  cat gg.txt | sed 's/.fastq.gz//'
+  111  sed 's/.fastq.gz//' gg.txt
+  112  sed 's/.fastq.gz//' gg.txt > gg.txt
+  113  ls *fastq.gz > gg.txt
+  114  ls *fastq.gz | sed 's/.fastq.gz//' > file_names.txt
+  115  ls
+  116  cd test
+  117  ls
+  118  nano salmon_run.sh 
+  119  conda deactivate
+  120  wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+  121  [200~wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -~
+  122  wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+  123  echo "deb https://download.sublimetext.com/ apt/dev/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+  124  sudo apt update
+  125  sudo apt install sublime-text
+  126  sudo apt remove sublime-text
+  127  sudo snap install atom --classic
+  128  bash salmon_run.sh 
+  129  clear
+  130  conda activate rnaseq
+  131  ls
+  132  fastqc SRR8668755_1M_subsample.fastq.gz -t 8
+  133  kallisto index -i Homo_sapiens.GRCh38.cdna.all.index Homo_sapiens.GRCh38.cdna.all.fa
+  134  cmod 777 readMapping.sh
+  135  cd deactivate
+  136  conda deactivate
+  137  ls
+  138  chmod 777 readMapping.sh
+  139  ./readMapping.sh 
+  140  bash readMapping.sh 
+  141  conda activate rnaseq
+  142  bash readMapping.sh 
+  143  history
+  144  ls
+  145  ls *fastq.gz
+  146  mv studydesign.txt \fastq_files
+  147  ls
+  148  mv studydesign.txt fastq_files/
+  149  ls
+  150  bash move_files.sh 
+  151  ls
+  152  history > command_history.txt

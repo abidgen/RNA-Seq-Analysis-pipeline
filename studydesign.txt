@@ -1,0 +1,11 @@
+sample	sra_accession	group
+HS01	SRR8668755	healthy
+HS02	SRR8668756	healthy
+HS03	SRR8668757	healthy
+HS04	SRR8668758	healthy
+HS05	SRR8668759	healthy
+CL08	SRR8668769	disease
+CL10	SRR8668771	disease
+CL11	SRR8668772	disease
+CL12	SRR8668773	disease
+CL13	SRR8668774	disease
