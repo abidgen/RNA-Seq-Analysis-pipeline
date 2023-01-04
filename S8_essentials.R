@@ -1,5 +1,5 @@
 # Introduction to this script ----
-# This script brings together all the condensed 'essential' parts of the scripts you've been working with during the course
+# This script brings together all the condensed 'essential' parts of the scripts 
 
 
 # Step 1: Sleuth_TxImport ----
